@@ -14,8 +14,7 @@ public class InsertionSort {
 		//after sorting
 		System.out.println("After insertion sort:");
 		print(a);
-		
-		
+				
 	}
 	
 	//insertion sort
@@ -24,15 +23,14 @@ public class InsertionSort {
 			a[i+1]=a[i];
 			i--;
 			if(i==-1)
-				break;
+			break;
 		}
 		a[i+1]=key;
 		print(a);
 		System.out.println();
 		
 	}
-	
-	
+		
 	//print array
 	public static void print(int array[]) {
 		for(int i=0;i<array.length;i++) {
