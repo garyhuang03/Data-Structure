@@ -11,21 +11,16 @@ public class QuickSort {
 	print(a);
 	}
 	
-	public static void quick(int a[],int l,int u) 
-	{
-	  if(l<u) 
-	  { 
+	public static void quick(int a[],int l,int u) {
+	  if(l<u) { 
 		int i=l,j=u+1,pivot=a[l];
-		do 
-		{
-			do 
-			{
+		do {
+			do {
 				i++; 
 				if(i==u)break;
 			} while(a[i]<pivot);//i§ä¤j
 			do j--; while(a[j]>pivot);//j§ä¤p
-			  if(i<j) 
-			  {
+			if(i<j){
 				//i<j«hswap
 				int temp=a[i];
 				a[i]=a[j];
