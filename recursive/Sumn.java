@@ -2,8 +2,8 @@
 public class Sumn {
 	public static void main(String[]arg) {
 		int n=10;
-		System.out.println("sum 1 to " + n + "=" + sum(n)); //forloop
-		System.out.println("sum 1 to " + n + "=" + sum_rec(n)); //recursive
+		System.out.println("sum 1 to " + n + "=" + sum(n)); 
+		System.out.println("sum 1 to " + n + "=" + sum_rec(n)); 
 		
 	}
 	public static int sum(int n) 
