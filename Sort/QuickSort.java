@@ -2,12 +2,12 @@
 public class QuickSort {
 	public static void main(String[] arg) {
 	int a[]= {61,52,43,34,25,16};
-	System.out.println("�Ƨǫe:");
+	System.out.println("快速排序前:");
 	print(a);
 	System.out.println();
-	System.out.println("�ƧǹL�{:");
+	System.out.println("排序過程:");
 	quick(a,0,a.length-1);
-	System.out.println("�Ƨǫ�:");
+	System.out.println("快速排序後:");
 	print(a);
 	}
 	
@@ -18,10 +18,10 @@ public class QuickSort {
 			do {
 				i++; 
 				if(i==u)break;
-			} while(a[i]<pivot);//i��j
-			do j--; while(a[j]>pivot);//j��p
+			} while(a[i]<pivot);//i找大
+			do j--; while(a[j]>pivot);//j找小
 			if(i<j){
-				//i<j�hswap
+				//i<j則swap
 				int temp=a[i];
 				a[i]=a[j];
 				a[j]=temp;
