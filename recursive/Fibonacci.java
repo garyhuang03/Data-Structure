@@ -23,12 +23,10 @@ public class Fibonacci {
 		//recursive
 		if(n==0) return 0;
 		else if(n==1) return 1;
-		else {
-			return fib_rec(n-1)+fib_rec(n-2);
-		}
+		else return fib_rec(n-1)+fib_rec(n-2);
+		
 	}
 	public static int fibDP(int n) {
-		
 		//Dynamic Programming
 		if(n==0) return 0;
 		else if(n==1) return 1;
@@ -39,8 +37,7 @@ public class Fibonacci {
 		for(int i=2;i<=n;i++) {
 			a[i]=a[i-1]+a[i-2];
 		}
-	
-		return a[n];
+	    return a[n];
 }
 
 }
