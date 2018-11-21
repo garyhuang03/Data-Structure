@@ -2,8 +2,8 @@
 public class Exp {
 	public static void main(String[]arg) {
 		int x=5,y=2;
-		System.out.println(x+"ªº"+y+"¦¸¤è="+exp(x,y));
-		System.out.println(x+"ªº"+y+"¦¸¤è="+exp_rec(x,y));
+		System.out.println(x+"çš„"+y+"æ¬¡æ–¹="+exp(x,y));
+		System.out.println(x+"çš„"+y+"æ¬¡æ–¹="+exp_rec(x,y));
 	}
 	public static int exp(int a,int b) {
 		//forloop
