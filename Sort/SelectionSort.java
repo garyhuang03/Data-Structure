@@ -2,12 +2,12 @@
 public class SelectionSort {
 	public static void main(String[] arg) {
 		int a[]= {6,17,9,4,8,5};
-		System.out.println("��ܱƧǫe:");
+		System.out.println("選擇排序前:");
 		print(a);
 		System.out.println();
-		System.out.println("�ƧǹL�{:");
+		System.out.println("排序過程:");
 		select(a,a.length);
-		System.out.println("��ܱƧǫ�:");
+		System.out.println("選擇排序後:");
 		print(a);
 }
 	
