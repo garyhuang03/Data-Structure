@@ -8,7 +8,7 @@ public class Sumn {
 	}
 	public static int sum(int n) 
 	{
-		//°j°é 
+		//forloop
 		int sum=0,i;
 		for(i=1;i<=n;i++) 
 		{
@@ -19,7 +19,7 @@ public class Sumn {
 	
 	public static int sum_rec(int n)  
 	{
-		//»¼°j
+		//recursive
 		if(n==0) return 0;
 		else 
 		{
