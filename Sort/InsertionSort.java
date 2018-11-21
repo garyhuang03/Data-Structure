@@ -2,14 +2,14 @@
 public class InsertionSort {
 	public static void main(String[] arg) {
 		int a[]= {6,5,1,2,4};
-		System.out.println("´¡¤J±Æ§Ç«e:");
+		System.out.println("æ’å…¥æ’åºå‰:");
 		print(a);
 		System.out.println();
-		System.out.println("±Æ§Ç¹Lµ{:");
+		System.out.println("æ’åºéç¨‹:");
 		for(int j=1;j<a.length;j++) {
 			insertsort(a,a[j],j-1);
 		}
-		System.out.println("´¡¤J±Æ§Ç«á:");
+		System.out.println("æ’å…¥æ’åºå¾Œ:");
 		print(a);
 }
 	//insertion sort
