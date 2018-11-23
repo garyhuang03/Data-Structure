@@ -3,7 +3,10 @@
 ## 遞迴:
 https://github.com/ttiverson3/Data-Structure/tree/master/recursive
 
-河內塔,排列組合,字串反轉,數學公式...等等
+[河內塔](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Hanoi.java),
+[排列組合](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Permutation.java),
+[字串反轉](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/StringReverse.c),
+[數學公式](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Sumn.java)...等等
 
 ## 排序:
 https://github.com/ttiverson3/Data-Structure/tree/master/Sort
