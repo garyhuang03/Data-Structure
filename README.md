@@ -7,6 +7,7 @@ https://github.com/ttiverson3/Data-Structure/tree/master/recursive
 https://github.com/ttiverson3/Data-Structure/tree/master/Sort
 
 -初等排序:
+
 Insertion Sort
 
 Selection Sort
@@ -16,10 +17,12 @@ Bubble Sort
 Shell Sort
 
 -高等排序:
+
 Quick Sort
 
 Merge Sort
 
 -線性時間:
+
 Counting Sort
 
