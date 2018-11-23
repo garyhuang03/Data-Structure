@@ -1,4 +1,4 @@
-
+//102中山資管資料結構
 public class Practice {
 	public static void main(String[] arg) {
 		int a=5;
