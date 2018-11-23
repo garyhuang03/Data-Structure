@@ -1,5 +1,5 @@
 #include <stdio.h>
-//105¤¤¤s¤j¾Ç¸ê®Æµ²ºc
+//105ä¸­å±±å¤§å­¸è³‡æ–™çµæ§‹
 void reverse(char *s)
 {
     if(*s)
