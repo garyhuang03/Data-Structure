@@ -1,4 +1,18 @@
 #include <stdio.h>
+int BS(int *a,int k,int l,int u);
+int BS_rec(int *a,int k,int l,int u);
+
+int main()
+{
+    int a[]= {22,55,5,4,88,9,75,3};
+	int n=sizeof(a)/sizeof(a[0]);
+	int l=0,u=n-1;
+	int k=9;
+    BS(a,k,l,u);
+    printf("%d\n",BS(a,k,l,u));
+    printf("%d",BS_rec(a,k,l,u));
+    return 0;
+}
 //iterative
 int BS(int *a,int k,int l,int u)
 {
@@ -31,14 +45,4 @@ int BS_rec(int *a,int k,int l,int u)
 }
 
 
-int main()
-{
-    int a[]= {22,55,5,4,88,9,75,3};
-	int n=sizeof(a)/sizeof(a[0]);
-	int l=0,u=n-1;
-	int k=9;
-    BS(a,k,l,u);
-    printf("%d\n",BS(a,k,l,u));
-    printf("%d",BS_rec(a,k,l,u));
-    return 0;
-}
+
