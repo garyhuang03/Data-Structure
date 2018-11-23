@@ -1,4 +1,5 @@
 #include <stdio.h>
+//iterative
 int BS(int *a,int k,int l,int u)
 {
     while(l<u){
@@ -15,7 +16,7 @@ int BS(int *a,int k,int l,int u)
     }
     return -1;
 }
-
+//recursive
 int BS_rec(int *a,int k,int l,int u)
 {
     if(l<u){
