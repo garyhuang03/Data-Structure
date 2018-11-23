@@ -3,7 +3,7 @@
 ## 遞迴:
 [河內塔](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Hanoi.java),
 [排列組合](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Permutation.java),
-[字串反轉](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/StringReverse.c),
+[字串反轉](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/StringReverse.c)
 ...[等等](https://github.com/ttiverson3/Data-Structure/tree/master/recursive)
 
 ## 排序:
