@@ -8,7 +8,7 @@ int main()
 	int n=sizeof(a)/sizeof(a[0]);
 	int l=0,u=n-1;
 	int k=9;
-    BS(a,k,l,u);
+    
     printf("%d\n",BS(a,k,l,u));
     printf("%d",BS_rec(a,k,l,u));
     return 0;
