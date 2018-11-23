@@ -1,7 +1,7 @@
 # 資管所資料結構
 
 ## 遞迴:
-https://github.com/ttiverson3/Data-Structure/tree/master/recursive
+https://reurl.cc/KrO3m
 
 [河內塔](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Hanoi.java),
 [排列組合](https://github.com/ttiverson3/Data-Structure/blob/master/recursive/Permutation.java),
