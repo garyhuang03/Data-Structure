@@ -29,5 +29,5 @@ Heap Sort
 
 Radix Sort
 
-[Counting Sort]()
+[Counting Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/CountingSort.java)
 
