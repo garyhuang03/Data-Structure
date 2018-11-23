@@ -8,13 +8,13 @@ https://github.com/ttiverson3/Data-Structure/tree/master/recursive
 ## 排序:
 https://github.com/ttiverson3/Data-Structure/tree/master/Sort
 
-1. 初等排序:
+**1. 初等排序: **
 
-Insertion Sort
+     Insertion Sort
 
-Selection Sort
+     Selection Sort
 
-Bubble Sort
+     Bubble Sort
 
 Shell Sort
 
