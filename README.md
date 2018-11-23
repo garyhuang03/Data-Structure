@@ -23,7 +23,11 @@
 
 [Merge Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/MergeSort.java)
 
+Heap Sort
+
 * 線性時間:
+
+Radix Sort
 
 [Counting Sort]()
 
