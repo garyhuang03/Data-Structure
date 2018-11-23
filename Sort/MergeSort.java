@@ -31,7 +31,7 @@ public class MergeSort {
 			p[i]=a[l+i];
 		for(int i=0;i<run2;i++)
 			q[i]=a[m+1+i];
-		//MergeSort比大小
+		//Merge比大小
 		int i=0,j=0,k=l;
 		while(i<run1 && j<run2) {
 			if(p[i]<=q[j]) {
