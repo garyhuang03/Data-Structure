@@ -9,14 +9,10 @@ https://github.com/ttiverson3/Data-Structure/tree/master/recursive
 https://github.com/ttiverson3/Data-Structure/tree/master/Sort
 
 **1. 初等排序:**
-
-     [Insertion Sort](www.yahoo.com)
-
-     Selection Sort
-
-     Bubble Sort
-
-     Shell Sort
+[Insertion Sort](https://reurl.cc/gznDp)
+Selection Sort
+Bubble Sort
+Shell Sort
 
 **2. 高等排序:**
 
