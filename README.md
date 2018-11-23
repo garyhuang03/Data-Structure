@@ -3,6 +3,8 @@
 # 1.遞迴運算式:
 https://github.com/ttiverson3/Data-Structure/tree/master/recursive
 
+河內塔,排列組合,字串反轉,數學公式...等等
+
 # 2.排序演算法:
 https://github.com/ttiverson3/Data-Structure/tree/master/Sort
 
