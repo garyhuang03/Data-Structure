@@ -27,11 +27,11 @@ public class MergeSort {
 		int p[]=new int[run1];
 		int q[]=new int[run2];
 		
-		for(int i=0;i<run1;i++)//
+		for(int i=0;i<run1;i++)
 			p[i]=a[l+i];
-		for(int i=0;i<run2;i++)//
+		for(int i=0;i<run2;i++)
 			q[i]=a[m+1+i];
-		//
+		//MergeSort比大小
 		int i=0,j=0,k=l;
 		while(i<run1 && j<run2) {
 			if(p[i]<=q[j]) {
@@ -44,7 +44,7 @@ public class MergeSort {
 			}
 			k++;
 		}
-		//
+		//若run1或run2尚未scan完
 		while(i<run1) {
 			a[k]=p[i];
 			i++; k++;
