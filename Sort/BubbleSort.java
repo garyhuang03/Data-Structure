@@ -14,7 +14,7 @@ public class BubbleSort {
 	
 	public static void bubble(int a[],int n){
 		for(int i=n-1;i>=1;i--) {
-			boolean flag=false;//ªí¥Ü¦³µLSWAP
+			boolean flag=false;//è¡¨ç¤ºæœ‰ç„¡SWAP
 			for(int j=0;j<i;j++) {
 				if(a[j]>a[j+1]) {
 					int temp=a[j];
