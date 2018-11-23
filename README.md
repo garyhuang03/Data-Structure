@@ -10,7 +10,7 @@ https://github.com/ttiverson3/Data-Structure/tree/master/Sort
 
 **1. 初等排序:**
 
-     [Insertion Sort](https://reurl.cc/gznDp)
+     [Insertion Sort](www.yahoo.com)
 
      Selection Sort
 
