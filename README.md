@@ -7,7 +7,7 @@
 ...[等等](https://github.com/ttiverson3/Data-Structure/tree/master/recursive)
 
 ## 排序:
-**1. 初等排序:**
+* 初等排序:
 
 [Insertion Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/InsertionSort.java)
 
@@ -17,13 +17,13 @@
 
 [Shell Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/ShellSort.java)
 
-**2. 高等排序:**
+* 高等排序:
 
 [Quick Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/QuickSort.java)
 
 [Merge Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/MergeSort.java)
 
-**3. 線性時間:**
+* 線性時間:
 
 [Counting Sort]()
 
