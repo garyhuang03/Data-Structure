@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//Linked list實作 107交大
+//107交大
 struct node
 {
     int data;
