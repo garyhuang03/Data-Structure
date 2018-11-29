@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-//Linked list¹ê§@ 107¥æ¤j
+//Linked listå¯¦ä½œ 107äº¤å¤§
 struct node
 {
     int data;
     struct node *next;
 } n1,n2,n3,n4,n5,*f;
 
-//¤ñ¤j¤p
+//æ¯”å¤§å°
 void foo1(struct node *p)
 {
     for(;p!=NULL && p->next!=NULL;p=p->next)
@@ -21,7 +21,7 @@ void foo1(struct node *p)
     }
 }
 
-//¤ÏÂà¦ê¦C
+//åè½‰ä¸²åˆ—
 void foo2(struct node *p)
 {
     struct node *q,*r;
@@ -35,17 +35,17 @@ void foo2(struct node *p)
     f=p;
 }
 
-//¦ê¦C¬Û¥[
+//ä¸²åˆ—ç›¸åŠ 
 int bar(struct node *p)
 {
     int flag,sum;
     for(flag=0,sum=0;p!=NULL;p=p->next,flag++)
-    //ªí¥Üflag¬°©_¼Æ
+    //è¡¨ç¤ºflagç‚ºå¥‡æ•¸
     if(flag&1==1) sum+=p->data;
     return sum;
 }
 
-//¦L¥X¦ê¦C
+//å°å‡ºä¸²åˆ—
 void bar2(struct node *p)
 {
     while(p!=NULL)
@@ -61,11 +61,11 @@ int main()
    n1.data=6; n2.data=3; n3.data=8; n4.data=10; n5.data=1;
    n1.next=&n2; n2.next=&n3; n3.next=&n4; n4.next=&n5; n5.next=NULL;
    foo1(f);
-   bar2(f);
+   bar2(f);//å°å‡º:3 6 8 1 10 
    cout<<"\n";
    foo2(f);
-   bar2(f);
+   bar2(f);//å°å‡º:10 1 8 6 3 
    cout<<"\n";
-   cout<<bar(f);
+   cout<<bar(f);//å°å‡º:7
    return 0;
 }
