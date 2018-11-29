@@ -69,3 +69,23 @@ int main()
    cout<<bar(f);//印出:7
    return 0;
 }
+
+/*反轉串列另一寫法
+void foo2(struct node *s)
+{
+    
+    if(s!=NULL)
+    {
+        struct node *q=NULL,*r,*p=s;
+        while(p!=NULL)
+        {
+        r=q;
+        q=p;
+        p=p->next;
+        q->next=r;
+        }
+         f=q;
+    }
+
+}*/
+
