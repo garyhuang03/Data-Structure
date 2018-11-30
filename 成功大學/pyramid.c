@@ -1,5 +1,5 @@
 #include <stdio.h>
-//105成大
+//105成大計概
 int main()
 {
     int n=3;
