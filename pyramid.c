@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//105成大
 int main()
 {
     int n=3;
