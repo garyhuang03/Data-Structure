@@ -23,7 +23,7 @@
 
 [Merge Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/MergeSort.java)
 
-Heap Sort
+[Heap Sort](https://github.com/ttiverson3/Data-Structure/blob/master/Sort/HeapSort.java)
 
 * 線性時間：
 
