@@ -1,7 +1,7 @@
-
+﻿
 public class BubbleSort {
 	public static void main(String[] arg) {
-		int a[]= {5,1,2,3,4};
+		int a[]= {1,2,3,5,4};
 		int n=a.length;
 		System.out.println("Before BubbleSort:");
 		print(a);
@@ -22,11 +22,11 @@ public class BubbleSort {
 					a[j+1]=temp;
 					flag=true;
 				}
-				if(flag==false)
-				break;
 				print(a);
 				System.out.println();
 			}
+			if(flag==false)
+			break;
 		}
 	}
 
