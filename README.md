@@ -37,5 +37,5 @@ Radix Sort
 
 ## Linked List：
 
-[反轉串列相加](https://github.com/ttiverson3/Data-Structure/blob/master/LinkedList.c)
+[Invert](https://github.com/ttiverson3/Data-Structure/blob/master/LinkedList.c)
 
