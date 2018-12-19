@@ -47,5 +47,5 @@ int main()
     n7.left=n7.right=NULL;
     
     cout<<equal(&n1,&n1);
-    
+    return 0;
 }
