@@ -1,7 +1,7 @@
 
 #include <iostream>
 using namespace std;
-//107交大
+
 struct node
 {
     int data;
