@@ -49,7 +49,7 @@ int main()
     n7.left=n7.right=NULL;
     
     swap(&n1);
-    preorder(&n1);
+    preorder(&n1);//用前序追蹤印出來
    
    return 0;
 }
