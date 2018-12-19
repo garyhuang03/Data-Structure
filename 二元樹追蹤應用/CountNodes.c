@@ -17,15 +17,6 @@ int count(struct node *s)
     }
 }
 
-void preorder(struct node *T)
-{
-    if(T!=NULL)
-    {
-        cout<<T->data<<" ";
-        preorder(T->left);
-        preorder(T->right);
-    }
-}
 
 int main()
 {
