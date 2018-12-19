@@ -15,6 +15,7 @@ void foo1(struct node *p)
     {
         t=p->left;
         p->left=p->right;
+        p->right=t;
         foo1(p->left);
         foo1(p->right);
     }
