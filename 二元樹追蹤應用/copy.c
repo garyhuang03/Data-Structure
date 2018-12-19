@@ -6,18 +6,6 @@ struct node{
     struct node *left,*right;
 } n1,n2,n3,n4,n5,n6,n7;
 
-
-
-void preorder(struct node *T)
-{
-    if(T!=NULL)
-    {
-        cout<<T->data<<" ";
-        preorder(T->left);
-        preorder(T->right);
-    }
-}
-
 struct node *copy(struct node *s)
 {
     struct node *t;
@@ -32,6 +20,18 @@ struct node *copy(struct node *s)
     }
     return t;
 }
+
+void preorder(struct node *T)
+{
+    if(T!=NULL)
+    {
+        cout<<T->data<<" ";
+        preorder(T->left);
+        preorder(T->right);
+    }
+}
+
+
 
 int main()
 {
