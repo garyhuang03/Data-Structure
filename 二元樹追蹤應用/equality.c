@@ -17,15 +17,6 @@ bool equal(struct node *s,struct node *t)
                return res;
 }
 
-void preorder(struct node *T)
-{
-    if(T!=NULL)
-    {
-        cout<<T->data<<" ";
-        preorder(T->left);
-        preorder(T->right);
-    }
-}
 
 int main()
 {
