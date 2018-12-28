@@ -10,7 +10,7 @@ void reverse(int n)
     }
 }
 
-int reverse_char(char*s)
+void reverse_char(char*s)
 {
     if(*s)
     {
