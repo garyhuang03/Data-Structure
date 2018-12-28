@@ -1,12 +1,12 @@
 #include <stdio.h>
 //105,107中山大學
-int reverse(int n)
+void reverse(int n)
 {
     if(n>0)
     {
         int a=n%10;
         printf("%d",a);
-        return reverse(n/10);
+        reverse(n/10);
     }
 }
 
